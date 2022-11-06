@@ -1,4 +1,4 @@
-package scala_learning.set
+package scala_learning.c07_set
 
 import scala.collection.mutable.ListBuffer
 

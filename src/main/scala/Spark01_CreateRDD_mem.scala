@@ -9,6 +9,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 object Spark01_CreateRDD_mem {
   def main(args:Array[String]): Unit={
     //创建程序入口对象SparkContext,设置配置信息SparkConf
+    //注意local[*]这里local里首字母是小写
     val conf: SparkConf = new SparkConf().setMaster("local[*]").setAppName("CreateRDD")
 
     val sc: SparkContext = new SparkContext(conf)
